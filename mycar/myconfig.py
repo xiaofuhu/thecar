@@ -46,9 +46,9 @@ STEERING_RIGHT_PWM = 250        #pwm value for full right steering
 # 
 # #THROTTLE
 THROTTLE_CHANNEL = 0            #channel on the 9685 pwm board 0-15
-THROTTLE_FORWARD_PWM = 450      #pwm value for max forward throttle
+THROTTLE_FORWARD_PWM = 395      #pwm value for max forward throttle
 THROTTLE_STOPPED_PWM = 360      #pwm value for no movement
-THROTTLE_REVERSE_PWM = 3000      #pwm value for max reverse throttle
+THROTTLE_REVERSE_PWM = 330      #pwm value for max reverse throttle
 # 
 # #DC_STEER_THROTTLE with one motor as steering, one as drive
 # #these GPIO pinouts are only used for the DRIVE_TRAIN_TYPE=DC_STEER_THROTTLE
