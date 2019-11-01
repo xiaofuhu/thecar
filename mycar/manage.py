@@ -290,7 +290,9 @@ def drive(cfg, model_path=None, use_joystick=False, model_type=None, camera_type
         try:
             ctr.set_button_down_trigger('L1', bh.increment_state)
         except:
-            pass
+            print("DEBUG: Go to left_only")
+            bh.set_state["Left_Only"]
+#            pass
 
         inputs = [inf_input, "behavior/one_hot_state_array"]  
     #IMU
