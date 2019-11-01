@@ -179,7 +179,7 @@ THROTTLE_REVERSE_PWM = 330      #pwm value for max reverse throttle
 # #BEHAVIORS
 # #When training the Behavioral Neural Network model, make a list of the behaviors,
 # #Set the TRAIN_BEHAVIORS = True, and use the BEHAVIOR_LED_COLORS to give each behavior a color
-TRAIN_BEHAVIORS = True
+TRAIN_BEHAVIORS = False
 BEHAVIOR_LIST = ["Left_Only", "Right_Only"]
 BEHAVIOR_LED_COLORS =[ (0, 10, 0), (10, 0, 0) ] #RGB tuples 0-100 per chanel
 # 
